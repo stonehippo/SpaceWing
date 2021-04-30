@@ -21,8 +21,8 @@ The LiPoly battery is attached to the back of the quad adapter with some nice Ve
 
 ## Component Interconnections
 
-Most of the components in the SpaceWing communicate with each other via I2C. The exception is the GPS, which
-the nRF52840 talks to over a UAR
+Most of the components in the SpaceWing communicate via I2C. The exception is the GPS, which
+the nRF52840 talks to over a UART.
 
 ## BOM
 
