@@ -40,7 +40,7 @@ while True:
   while ble.connected:
     x, y, z = accel_gyro.acceleration
     plot_data = f"{x}, {y}, {z}\n"
-    uart.write(plot_data.encode("utf-b"))
+    uart.write(plot_data.encode("utf-8"))
     time.sleep(0.025)
   
   # we no longer have a connection, so we'll go back to the top of the loop
